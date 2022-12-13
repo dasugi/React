@@ -1,0 +1,23 @@
+.wrapper{
+    background: black;
+    padding:1rem;
+    color:white;
+    font-size: 2rem;
+
+    &.inverted{
+        color:black;
+        background:white;
+        border:1px solid black;
+    }
+    
+}
+
+
+/* 전역 변수 기반의 글로벌 css를 적용*/
+
+:global {
+    .something {
+    font-weight: 800;
+    color:aqua;
+}
+}
